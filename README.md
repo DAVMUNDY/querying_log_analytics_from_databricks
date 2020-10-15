@@ -5,7 +5,9 @@ Example of using the spark-kusto-connector in databricks to query Log Analytics
 <br />
 
 If you're looking to query Log Analytics (Azure Monitor Logs) from a Databricks notebook unfortuantely we cannot use an option similar to this Jupyter notebook example:<br />
+<br />
 https://github.com/Azure/azure-kusto-analytics-lib/blob/master/KqlMagic/Getting-Started-With-KqlMagic-on-ADX.ipynb <br />
+<br />
 ...because KQL magic is not suppored in Azure Databricks notebooks :( <br />
 So you could use tools such as Azure Notebook Service, Azure Data Studio.. however if you still want to use Databricks then we can run queries through the spark-kusto-connector.
 
