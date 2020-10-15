@@ -72,3 +72,4 @@ kustoDf.show()
 ### References ###
 Examples - https://github.com/Azure/azure-kusto-spark/blob/master/samples/src/main/python/pyKusto.py
 Docs - https://docs.microsoft.com/en-us/azure/data-explorer/connect-from-databricks
+Docs - https://docs.microsoft.com/en-us/azure/data-explorer/spark-connector#azure-ad-application-authentication
